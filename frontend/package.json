@@ -2,6 +2,7 @@
   "name": "ecommerce-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://eeswar889.github.io/Busybrains",
   "dependencies": {
     "axios": "^1.7.2",
     "react": "^18.3.1",
@@ -12,7 +13,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r https://github.com/Eeswar889/Busybrains.git"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   },
   "browserslist": {
     "production": [
