@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Busybrains/static/css/main.92a12bb3.css",
+    "main.js": "/Busybrains/static/js/main.16c5630e.js",
+    "index.html": "/Busybrains/index.html",
+    "main.92a12bb3.css.map": "/Busybrains/static/css/main.92a12bb3.css.map",
+    "main.16c5630e.js.map": "/Busybrains/static/js/main.16c5630e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92a12bb3.css",
+    "static/js/main.16c5630e.js"
+  ]
+}
